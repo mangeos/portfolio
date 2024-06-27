@@ -8,32 +8,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
 </head>
-<body>
+<body class="flex flex-col h-screen">
     <!-- Header -->
-<header class="bg-white shadow-md">
-  <div class="container mx-auto px-4 py-6 flex justify-between items-center">
-    <div>
-      <a href="#" class="text-xl font-bold text-gray-800">Logo</a>
-    </div>
-    <nav>
-      <ul class="flex space-x-4">
-        <li><a href="#" class="text-gray-600 hover:text-gray-800">Home</a></li>
-        <li><a href="#" class="text-gray-600 hover:text-gray-800">About</a></li>
-        <li><a href="#" class="text-gray-600 hover:text-gray-800">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-    <div class="container mx-auto my-10">
-        <h1 class="text-3xl font-semibold text-center text-gray-800 font-roboto my-10">Projects</h1>
-    <div class="grid-container md:grid md:grid-cols-2 gap-20">
-        <div style="height: 550px;" class="grid-item flex md:justify-end md:items-start"><div class=" rounded-lg bg-blue-200 w-80 h-80  hover:scale-90 transform transition duration-300 cursor-pointer"></div></div>
-        <div class="grid-item flex md:justify-start md:items-end"><div class=" rounded-lg bg-blue-200 w-80 h-80  hover:scale-90 transform transition duration-300 cursor-pointer"></div></div>
-        <div style="height: 550px;" class="grid-item flex md:justify-end md:items-start"><div class="rounded-lg bg-blue-200 w-80 h-80  hover:scale-90 transform transition duration-300 cursor-pointer"></div></div>
-        <div class="grid-item flex md:justify-start md:items-end"><div class="rounded-lg bg-blue-200 w-80 h-80  hover:scale-90 transform transition duration-300 cursor-pointer"></div></div>
-    </div>
-    </div>
-    <footer>
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+            <div>
+                <a href="#" class="text-xl font-bold text-gray-800">Logo</a>
+            </div>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="text-gray-600 hover:text-gray-800">Home</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-gray-800">About</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-gray-800">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Main content -->
+    <main class="flex-1 flex justify-center items-center flex-col gap-10 bg-gray-100 p-10">
+        <div  class="w-full bg-gray-400 md:h-96 rounded-lg flex p-1"> <div class=" h-full w-3/5 bg-white"></div><div class=" h-full w-2/5 bg-black"></div></div>
+        <div  class="w-full bg-gray-400 md:h-96 rounded-lg flex p-1"></div>
+        <div  class="w-full bg-gray-400 md:h-96 rounded-lg flex "></div>
+        <div  class="w-full bg-gray-400 md:h-96 rounded-lg flex "></div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-200 text-center py-4">
         <p>&copy; 2024 Min Webbplats. Alla rättigheter reserverade.</p>
     </footer>
 </body>
