@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer components {
+  .bg-custom {
+    @apply bg-cover bg-center;
+    background-image: url("./img/photo-2.jpg");
+  }
+  .bg-custom2 {
+    @apply bg-cover bg-center;
+    background-image: url("./img/picture1.png");
+  }
+}
